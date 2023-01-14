@@ -22,3 +22,5 @@ Users can quickly check their scheduled activities while browsing calendars, and
 ### [React Native Expo Publish](https://expo.dev/@jglchen/scheduler-app)
 ### [React Native GitHub](https://github.com/jglchen/react-native-scheduler-app)
 ### back To [Series Home](https://jglchen.github.io/)
+
+{% include giscus.html %}
