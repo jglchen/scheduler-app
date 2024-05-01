@@ -25,8 +25,10 @@ function UserAdmin(){
       {userContext.isLoggedIn &&
       <div style={{padding: '0.5rem'}}>
          Hi! {userContext.user?.name}
-         <button className="muted-button button float-right" onClick={() => signOut()}>Sign Out</button>
-         <button className="accent-button button float-right" onClick={() => setPersonalInfo(true)}>User Info</button> 
+         <div style={{flex: 1, flexDirection: 'row'}}>
+            <button className="muted-button button float-right button-right" onClick={() => signOut()}>Sign Out</button>
+            <button className="accent-button button float-right button-right" onClick={() => setPersonalInfo(true)}>User Info</button> 
+         </div>
          {personalInfo &&
             <div className={lightBoxStyles.lightbox}>
                <div className={lightBoxStyles.module}>

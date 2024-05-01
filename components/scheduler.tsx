@@ -228,10 +228,10 @@ function Scheduler(){
           </div>
           <div style={{display: 'flex', padding: '0.5rem 0'}}>
              <div className={schedulerStyle.radio_element} onClick={() => {if (selectRange) (setSelectRange(false))}}>
-                <span className="material-icons">{selectRange ? 'radio_button_unchecked': 'radio_button_checked'}</span>&nbsp;&nbsp;Pick Single Date
+                <span className="material-icons">{selectRange ? 'radio_button_unchecked': 'radio_button_checked'}</span>&nbsp;&nbsp;<div>Pick Single Date</div>
              </div>
              <div className={schedulerStyle.radio_element} onClick={() => {if (!selectRange) (setSelectRange(true))}}>
-                <span className="material-icons">{selectRange ? 'radio_button_checked': 'radio_button_unchecked'}</span>&nbsp;&nbsp;Select Range
+                <span className="material-icons">{selectRange ? 'radio_button_checked': 'radio_button_unchecked'}</span>&nbsp;&nbsp;<div>Select Range</div>
              </div>
           </div>
         </div>  

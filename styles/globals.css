@@ -503,7 +503,7 @@ a {
     font-size: 1rem;
     text-transform: none;
     padding: .75rem 1.25rem;
-    margin: 0 2.5rem .5rem 0;
+    margin: 0 1rem .5rem 0;
     vertical-align: middle;
     text-align: center;
     cursor: pointer;
@@ -528,6 +528,10 @@ a {
   .button::-moz-focus-inner, a.button::-moz-focus-inner, [type=submit]::-moz-focus-inner, [type=reset]::-moz-focus-inner {
     border: 0;
     padding: 0; }
+
+  .button-right {
+    margin: 0 0 .5rem 1rem;
+  }  
   
   .accent-button,
   a.accent-button {
