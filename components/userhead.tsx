@@ -11,9 +11,11 @@ function UserHead(){
            <h1 className="text-center">
              Welcome to Appointment Scheduler!
            </h1>
+           {/* 
            <h5 className="text-right">
              React Native Expo Publish: <a href="https://exp.host/@jglchen/scheduler-app" target="_blank" rel="noreferrer">https://exp.host/@jglchen/scheduler-app</a>
-           </h5>           
+           </h5> 
+           */}          
           {userContext.isLoggedIn ?
              (<UserAdmin />)
              :
